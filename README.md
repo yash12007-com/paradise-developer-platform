@@ -1,6 +1,8 @@
 # Paradise for developers
 Publish and share software instantly with Paradise. A fast developer platform for direct file links with built-in verification and security.
 
+<img src="https://paradise.yash12007.com/bg.png" alt="Paradise | Hero Image">
+
 > [!NOTE]
 > This platform is under development and will launch soon...
 
