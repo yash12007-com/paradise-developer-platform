@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise - Publish Software Instantly with Direct Links</title>
+    <link rel="manifest" href="https://www.yash12007.com/manifest.json">
+    <meta property="og:title" content="Paradise - Software Publishing Center | developed by Yash12007">
+    <meta property="og:site_name" content="Paradise">
+    <meta property="og:image" content="https://www.yash12007.com/192x192.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="192">
+    <meta property="og:image:height" content="192">
+    <meta property="og:description" content="Publish and share your projects instantly with Paradise. A fast, developer-first platform using direct file links and smart verification.">
+    <meta property="og:url" content="https://developer.paradise.yash12007.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:title" content="Paradise - Software Publishing Center | developed by Yash12007">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@_Yash12007_">
+    <meta name="twitter:description" content="Publish and share your projects instantly with Paradise. A fast, developer-first platform using direct file links and smart verification.">
+    <meta name="twitter:image" content="https://www.yash12007.com/192x192.png">
+    <meta name="apple-mobile-web-app-title" content="Paradise - Software Publishing Center | developed by Yash12007">
+    <meta name="description" content="Publish and share software instantly with Paradise. A fast developer platform for direct file links with built-in verification and security.">
+    <meta name="keywords" content="Paradise platform, developer publishing platform, direct file sharing, file link publishing, software distribution, developer tools, project sharing, secure file sharing, verification system, SERA verification, digital distribution platform">
+    <link rel="icon" href="https://www.yash12007.com/512x512.ico" type="image/x-icon" />
+    <link rel="icon" type="image/svg+xml" href="https://www.yash12007.com/512x512.svg">
+    <link rel="apple-touch-icon" href="https://www.yash12007.com/192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.yash12007.com/16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.yash12007.com/32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://www.yash12007.com/48x48.png">
+    <link rel="icon" sizes="192x192" href="https://www.yash12007.com/192x192.png">
+    <meta name="msapplication-TileImage" content="https://www.yash12007.com/192x192.png">
+    <link rel="mask-icon" href="https://www.yash12007.com/512x512.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="me" href="https://twitter.com/_Yash12007_">
+    <link rel="canonical" href="https://developer.paradise.yash12007.com/">
+    <meta name="robots" content="index, follow">
+    <script type="application/ld+json">
+        [
+            {
+                "@id": "https://developer.paradise.yash12007.com",
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Paradise",
+                "alternateName": "Paradise",
+                "image": "https://www.yash12007.com/Sera/Sera.png",
+                "description": "Publish and share your projects instantly with Paradise. A fast, developer-first platform using direct file links and smart verification.",
+                "url": "https://developer.paradise.yash12007.com/",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Yash12007",
+                    "url": "https://www.yash12007.com"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Yash12007",
+                "sameAs": [
+                    "https://www.trustpilot.com/review/yash12007.com"
+                ]
+            }
+        ]
+    </script>
+    <style>
+        *{box-sizing: border-box;}
+        ::-webkit-scrollbar{width: 0; height: 0;}
+        html{scroll-behavior: smooth;}
+        body{
+            margin: 0;
+            font-family: calibri;
+            background: #fff;
+        }.hero{
+            background: url('bg.png') center/cover no-repeat;
+            width: 100%;
+            aspect-ratio: 16/9;
+            position: relative;
+        }nav{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #ffffff33;
+            backdrop-filter: blur(10px);
+            color: #fff;
+        }nav span{
+            font-weight: 900;
+            font-size: 1rem;
+        }nav ul{
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+            margin-top: 80px;
+            padding: 0;
+        }nav li{list-style: none;}
+        nav a{
+            color: #000;
+            padding: 6px 10px;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }#publishBTN{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(120deg, #ff0, #fff);
+            padding: 10px 18px;
+            color: #000;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 0.8rem;
+            border-radius: 6px;
+            text-transform: uppercase;
+            cursor: pointer;
+            z-index: 1000;
+        }@media (max-width: 768px){
+            nav{
+                flex-wrap: wrap;
+            }nav ul{
+                width: 100%;
+                justify-content: center;
+                margin-top: 5px;
+            }nav a{
+                font-size: 0.75rem;
+            }#publishBTN{
+                bottom: 10px;
+                right: 10px;
+                padding: 8px 14px;
+            }
+        }#toggleMenuBTN{
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            background: transparent;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }#docs{
+            width: calc(100% - 40px);
+            min-height: 100%;
+            height: fit-content;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }#ul{
+            position: absolute;
+            top: 60px;
+            right: 15px;
+            background: #fffc;
+            backdrop-filter: blur(10px);
+            border-radius: 8px;
+            flex-direction: column;
+            padding: 10px;
+            display: none;
+            min-width: 150px;
+        }#ul{ display: none; }
+        #ul.open{ display: flex; }
+        #toggleMenuBTN{ display: none; }
+        @media (max-width: 768px){
+            #toggleMenuBTN{ display: block; }
+            nav ul{ display: none; }
+        }.hero::after{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: #0001;
+        }.info{width: calc(80% - 20px); gap: 10px; font-size: 0.7rem; display: flex; place-items: center; justify-content: space-between; border: 2px solid #a0f; color: #55f; border-radius: 1rem; background: #00f3; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 10px;}
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <a href="?publish" id="publishBTN">Publish</a>
+    </div>
+    <nav>
+        <img src="https://www.yash12007.com/favicon.ico" width="30px" height="30px" style="border-radius: 50%;" alt="Yash12007 | Logo">
+        <span>Yash12007</span>
+        <ul id="ul">
+            <li><a href="https://www.yash12007.com" target="_blank">Home</a></li>
+            <li><a href="https://www.yash12007.com/Max/#about" target="_blank">About</a></li>
+            <li><a href="https://www.yash12007.com/services" target="_blank">Services</a></li>
+            <li><a href="https://www.yash12007.com/Max/contact" target="_blank">Contact</a></li>
+        </ul>
+        <button id="toggleMenuBTN" onclick="toggleNavMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </button>
+    </nav>
+    <div id="docs">
+        <div class="info">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+            </svg>
+            <p>This platform is under development and will launch soon...</p>
+        </div>
+        <h1>Paradise - A software publishing platform</h1>
+        <p>The platform paradise is officially developed by Yash12007 and is made for developers to publish their software applications at affordable rates</p>
+        <b>Here's why developers prefer Paradise</b>
+        <ul style="max-width: 80%; text-overflow: ellipsis; overflow-wrap: break-word; display: flex; flex-direction: column; gap: 10px;">
+            <li>No code signing certificate needed - Most of the developers don't publish the incredible software on any platform due to these reasons, where the range of code signing certificate is too expensive for individual developers even if there developed software worth the trust to publish</li>
+            <li>Software gets verified by real scans - Our platform doesn't rely on rates of publishing only, we keep our platform trusted with real scans powered by SERA Antivirus.</li>
+            <li>Affordable rates for publishing on Paradise - Rates of publishing each software start from $1.00</li>
+            <li>Easy integration with any software - we ask for the payment method to use, and some authentication credentials while fetching the details and are done</li>
+            <li>No uploads needed - we ask the downloadable URL of your software and our server will automatically scan the software and provide the verified badge if passed the software elligibility test</li>
+        </ul>
+        <b>Here are the key highlights of publishing an application on Paradise</b>
+        <ul style="max-width: 80%; text-overflow: ellipsis; overflow-wrap: break-word; display: flex; flex-direction: column; gap: 10px;">
+            <li>Create a developer account (either individual or organisation) from the official <a href="">Webpage</a></li>
+            <li>To keep each record clean and safe from unauthorised access, we charge a very affordable cost of $1.00 for each software upload</li>
+            <li>Developers on our platform have the right to publish a direct software application link instead of webpages, e.g., https://example.com/assets/software/mysoftware.exe</li>
+            <li>To keep our platform trusted, Paradise make sure that publishing software is not vulnerable to exploitation. Paradise uses the official algorithm of SERA antivirus developed by Yash12007 for scanning each uploaded software</li>
+            <li>Make sure that the verification process and payout methods are completed, and publish the software</li>
+        </ul>
+        <p>Developers on our platform can earn upto 85% by publishing software URLs on our platform, just verify your identity, complete payout verifications, pay the fees and publish.</p>
+        <i>15% charges will be deducted as a platform fee on each purchase (sales)</i>
+    </div>
+    <div id="developerAccountForm"></div>
+    <script>
+        function toggleNavMenu(){
+            const ul = document.getElementById("ul");
+            ul.classList.toggle("open");
+        }
+        const params = new URLSearchParams(window.location.search);
+
+        if (params.has("publish")) {
+            const token = localStorage.getItem("google_access_token");
+            if (!token) {signInWithGoogle();} else {startPublishFlow();}
+        }
+        function signInWithGoogle() {
+            const clientId = '913345082260-jobhspedjr8p6ns8iu6gd9bdfggsfi85.apps.googleusercontent.com';
+            const redirectUri = window.location.origin + window.location.pathname;
+            const googleSignInUrl =
+                `https://accounts.google.com/o/oauth2/v2/auth` +
+                `?client_id=${clientId}` +
+                `&redirect_uri=${encodeURIComponent(redirectUri)}` +
+                `&response_type=token id_token` +
+                `&scope=openid email profile` +
+                `&prompt=select_account` +
+                `&nonce=${Math.random().toString(36).substring(2)}`;
+            const datetime = new Date().toISOString();
+            localStorage.setItem('Signup-date', datetime);
+            fetch('https://api64.ipify.org?format=json').then(res => res.json()).then(data => {
+                localStorage.setItem('IP', data.ip);
+                window.location.href = googleSignInUrl;
+            }).catch(() => window.location.href = googleSignInUrl);
+        }function handleGoogleAuth() {
+            const hash = window.location.hash.substring(1);
+            const params = new URLSearchParams(hash);
+            const accessToken = params.get("access_token");
+            const idToken = params.get("id_token");
+            if (accessToken || idToken) {
+                localStorage.setItem("google_access_token", accessToken);
+                localStorage.setItem("google_id_token", idToken);
+                console.log("User signed in");
+                window.history.replaceState({}, document.title, window.location.pathname);
+                getUserInfo();
+            }
+        }function startPublishFlow() {
+            alert("Welcome to Publish Flow 🚀");
+        }function getUserInfo() {
+            const token = localStorage.getItem("google_access_token");
+            fetch("https://www.googleapis.com/oauth2/v2/userinfo", {headers: {Authorization: `Bearer ${token}`}}).then(res => res.json()).then(data => {
+                console.log("Logged in successful!");
+            });
+        }
+    </script>
+</body>
+</html>
